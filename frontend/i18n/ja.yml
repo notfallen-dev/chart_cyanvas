@@ -1,5 +1,4 @@
 language: "日本語"
-
 name: "Chart Cyanvas"
 gotIt: "了解"
 close: "閉じる"
@@ -9,14 +8,10 @@ separator: "、"
 brackets: "（{content}）"
 kv: "{key}：{value}"
 all: "すべて"
-
 serverError: "サーバーでエラーが発生しました！"
 serverErrorNote: "<0>Discordサーバー</0>に報告してください。"
-
 openInSonolus: "Sonolus"
-
 adminDecorate: "（管理者）"
-
 genre:
   others: "その他"
   vocal_synth: "ボカロ（広義）"
@@ -25,12 +20,10 @@ genre:
   meme: "音MAD・ミーム"
   pops: "ポップス"
   instrumental: "Inst."
-
 notFound:
   title: "Not Found"
   heading: "404 Not Found"
   description: "お探しのページは存在しません。"
-
 warning:
   title: "警告"
   description: "あなたは現在{count}件の警告を受けています。"
@@ -53,14 +46,12 @@ warning:
   timeoutNote: |
     <0>ガイドライン</0>をもう一度確認してください。
     下のボタンを押すと、制限期間のカウントダウンが始まります。
-
 home:
   newCharts: "新着譜面"
   welcome: "Chart Cyanvasへようこそ！初めての方は<0>初めての方へ</0>を参照して下さい。"
   openInSonolus: "Sonolusで開く"
   empty: "譜面が見付かりませんでした。"
   more: "もっと見る"
-
 menu:
   search: "譜面検索"
   post: "譜面投稿"
@@ -71,7 +62,6 @@ menu:
   guideline: "ガイドライン"
   logout: "ログアウト"
   settings: "設定"
-
   login:
     button: "ログイン"
     title: "ログイン中..."
@@ -89,7 +79,6 @@ settings:
     auto: "自動"
     light: "ライト"
     dark: "ダーク"
-
 warnModal:
   label: "警告"
   title: "警告する"
@@ -107,7 +96,6 @@ warnModal:
     ban: "警告を行い、譜面の編集権限を永久に停止します。"
   reason: "警告理由"
   ok: "警告する"
-
 chart:
   notFound: "譜面が見付かりませんでした。"
   variants: "派生譜面"
@@ -119,12 +107,10 @@ chart:
   noLevelData: |
     レベルデータがありません。
     エンジンの更新から譜面が遊ばれていない、または譜面の変換に失敗した可能性があります。
-
   deletionModal:
     title: "譜面を削除しますか？"
     description: "削除した譜面は復元できません！"
     ok: "削除"
-
 searchCharts:
   title: "譜面検索"
   queries: "絞り込み"
@@ -147,7 +133,6 @@ searchCharts:
     publishedAt: "投稿順"
     updatedAt: "更新順"
     likes: "高評価順"
-
 user:
   totalCharts: "総譜面数：{count}"
   totalLikes: "総高評価数：{count}"
@@ -158,10 +143,8 @@ user:
     warning: "レベル：{level}、日時：{date}、モデレーター：<0>{moderator}</0>、理由：{reason}"
     noWarnings: "警告はありません。"
   userCharts: "この作者の譜面"
-
 chartSection:
   notFound: "譜面が見付かりませんでした。"
-
 my:
   title: "自分の譜面"
   empty: "まだ譜面を投稿していません。<0>譜面投稿</0>から投稿してみましょう！"
@@ -170,7 +153,6 @@ liked:
   title: "高評価した譜面"
   empty: "まだ高評価した譜面がありません。"
   description: "高評価した譜面はここに表示されます。Sonolusで譜面を開いて、下にスクロールすると出てくるハートマークを押すことで高評価できます。"
-
 upload:
   title: "譜面投稿"
   titleEdit: "譜面編集：{title}"
@@ -186,31 +168,23 @@ upload:
       connected: "連携済み（{username}）"
       notConnected: "未連携"
     connectGuide: "連携方法"
-
   param:
     title: "タイトル"
     composer: "作曲者"
     artist: "ボーカル"
     rating: "難易度"
-
     variant: "派生元譜面"
     description: "説明"
-
     cover: "ジャケット"
     chart: "譜面"
     bgm: "音源"
-
     tags: "タグ"
-
     author: "譜面作者"
-
     genre: "ジャンル"
-
   tooltip:
     rating: "1から99までを指定できます。40より大きい譜面を指定する場合は、右の入力欄から直接入力してください。"
     variant: "派生元譜面のIDを指定して下さい。派生元譜面の概要欄に表示されます。難易度差分などの譜面は派生元譜面を指定してください。"
     tags: "スペース、カンマ、改行でタグを追加できます。最大5個まで。"
-
   visibility:
     title: "公開設定"
     public: "一般公開"
@@ -224,24 +198,18 @@ upload:
       private: |
         「テスト中」表示でしか表示されません。
         URLを共有することで、他の人にも見せることができます。
-
   dndHint: "ファイルはドラッグ&ドロップでもアップロードできます。ジャケット・音源・譜面を同時にアップロードすることもできます。"
-
   isChartPublic: "譜面ファイルを公開する"
-
   submit: "アップロード"
   update: "更新"
   publish: "公開"
   unpublish: "非公開"
-
   optional: "（任意）"
   dropHere: "ドロップしてアップロード"
   unUploadedFiles: "対応していないファイルがドロップされました。"
   unUploadedFilesNote: ".sus、.usc、.json、.mp3、.wav、.ogg、.png、.jpg、.jpeg、.webpのみ対応しています。"
-
   filesTooLarge: ファイルが大きすぎます。
   filesTooLargeNote: ファイルは合計で最大20MBまでです。
-
   publishModal:
     title: "以上の内容で公開しますか？"
     description: "投稿する譜面は以下のルールに従っている必要があります："
@@ -266,13 +234,11 @@ upload:
         タイトル・作曲者・アーティスト・BPMなどが正しく入力されていることを確認してください。
     description2: "<0>ガイドライン</0>に違反する譜面は削除され、投稿者に対して警告が行われます。"
     ok: "公開する"
-
 errors:
   cannotBeEmpty: "この項目は空にできません。"
   tooLong: "項目が長すぎます。"
   variantNotFound: "派生元譜面が見付かりませんでした。"
   tooManyTags: "タグが多すぎます。"
-
 admin:
   title: "管理者ページ"
   stats:
@@ -295,7 +261,6 @@ admin:
   sidekiq:
     title: "ジョブ（Sidekiq）"
     description: "バックグラウンドジョブの状態を確認できます。"
-
   actions:
     title: "コマンド"
     expireData:
@@ -305,31 +270,25 @@ admin:
         エンジンの仕様が変更された場合などに使用してください。
       button: "失効"
       success: "{count}個の譜面データを失効させました。"
-
 myAlts:
   title: 別名義一覧
   description: ここから別名義を管理できます。
   mobileDescription: 技術的な理由により、追加・編集・削除はPCから行う必要があります。
   empty: まだ名義がありません。
-
   add: 作成
   delete: 削除
   edit: 編集
   save: 保存
   cancel: キャンセル
-
   namePlaceholder: 名前を入力（4～16文字）
-
   deletionModal:
     title: 名義を削除
     description: この名義を削除しますか？
     nameChangeWarning: この名義で投稿された{count}個の譜面の名義は「{currentUser}」に変更されます。
     ok: 削除
-
   errors:
     tooShort: 名前が短すぎます。
     tooLong: 名前が長すぎます。
-
 discordError:
   title: 連携エラー
   description: Discordとの連携に失敗しました（{code}）。
@@ -337,6 +296,5 @@ discordError:
     discordError: Discordとの通信に失敗しました
     notInGuild: サーバーに参加していません
     unknown: 不明なエラーが発生しました
-
 login:
   title: "ログイン"
