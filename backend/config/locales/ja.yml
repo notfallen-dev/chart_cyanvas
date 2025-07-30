@@ -9,20 +9,16 @@ ja:
     dummy:
       title: "このレベルはプレイできません！"
       description: "一つ前のページに戻って、タイトルを読んで下さい。"
-
   sonolus:
     title: "Chart Cyanvas"
-
     configuration:
       background:
         title: "背景"
       genres:
         title: "表示する曲のジャンル"
         description: "この設定でチェックを入れていないジャンルの曲は、譜面一覧に表示されません。"
-
     popular_maintenance:
       title: "人気譜面欄はメンテナンス中です！"
-
     auth:
       external_done: "ログインに成功しました！Webページに戻って下さい。"
     info:
@@ -37,14 +33,11 @@ ja:
         v3: "v3（スマホ用）"
         tablet_v1: "v1（タブレット用）"
         tablet_v3: "v3（タブレット用）"
-
     targets:
       liked: "いいねした譜面"
-
     levels:
       published_at: "公開：%{time}前"
       variants: "派生譜面：%{count}個"
-
       genres:
         others: "その他"
         vocal_synth: "ボカロ（広義）"
@@ -53,21 +46,17 @@ ja:
         meme: "音MAD・ミーム"
         pops: "ポップス"
         instrumental: "Inst."
-
       visibility:
         public: "公開"
         private: "非公開"
         scheduled: "予約済"
-
       sections:
         actions: "操作"
         variant_of: "派生元"
         variants: "派生譜面"
         backgrounds: "背景"
-
       like: "いいね"
       unlike: "いいね解除"
-
     search:
       title: "タイトル"
       title_placeholder: "タイトルを入力して下さい..."
