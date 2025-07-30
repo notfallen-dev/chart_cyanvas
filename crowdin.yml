@@ -5,3 +5,7 @@ files:
     translation: /frontend/i18n/%two_letters_code%.yml
   - source: /backend/config/locales/ja.yml
     translation: /backend/config/locales/%two_letters_code%.yml
+  - source: backend/config/locales/en.yml
+    translation: backend/config/locales
+  - source: frontend/i18n/en.yml
+    translation: frontend/i18n/
