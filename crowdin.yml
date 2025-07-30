@@ -1,8 +1,7 @@
-commit_message: "i18n(%language%): crowdin update"
-append_commit_message: false
-
+commit_message: 'i18n(%language%): crowdin update'
+append_commit_message: 
 files:
-  - source: /frontend/i18n/ja.yml
+  - source: /frontend/i18n/en.yml
     translation: /frontend/i18n/%two_letters_code%.yml
-  - source: /backend/config/locales/ja.yml
+  - source: /backend/config/locales/en.yml
     translation: /backend/config/locales/%two_letters_code%.yml
